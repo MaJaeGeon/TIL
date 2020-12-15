@@ -100,5 +100,5 @@ public int Count(int[] numbers, Func<int, bool> judge)
 int[] numbers = new int[] { 1, 2, 3, 4, 5, 6, 7 };
 Count(numbers, x => x % 2 == 0);
 
-//3
+// 3
 ```

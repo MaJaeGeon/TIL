@@ -12,5 +12,6 @@
 - #### [Git](/Git)
   - [Git Basic](/Git/Git_Basic.md)
   - [Git Branch](/Git/Git_Branch.md)
-- #### [C#](/C#)
-  - [Delegate](/C#/Delegate.md)
+- #### [C#](/CC%23)
+  - [Delegate](/C%23/Delegate.md)
+  - [Lambda](/C%23/Lambda.md)

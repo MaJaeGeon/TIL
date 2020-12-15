@@ -26,8 +26,6 @@ var Even = from num in numbers
 foreach(var i in Even) Console.Write(i);    // 2468
 ```
 
-<br>
-
 ### from
 
 모든 LINQ 쿼리식은 반드시 from 으로 시작해야하며, from 의 데이터소스는  
@@ -39,8 +37,6 @@ IEnumerable<T> 인터페이스를 상속받고있는 형식이어야한다.
 from num in numbers
 ```
 
-<br>
-
 ### where
 
 where 에서는 데이터소스로부터 가져올 데이터에 조건을 걸어 필터링을 한다.
@@ -48,8 +44,6 @@ where 에서는 데이터소스로부터 가져올 데이터에 조건을 걸어
 ```cs
 where num % 2 == 0
 ```
-
-<br>
 
 ### orderby
 
@@ -64,8 +58,6 @@ orderby 연산자는 기본적으로 오름차순으로 정렬되지만 ascendin
 orderby num ascending   // 오름차
 orderby num descending  // 내림차
 ```
-
-<br>
 
 ### select
 

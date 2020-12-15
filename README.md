@@ -15,3 +15,4 @@
 - #### [C#](/C%23)
   - [Delegate](/C%23/Delegate.md)
   - [Lambda](/C%23/Lambda.md)
+  - [LINQ](/C%23/Linq.md)

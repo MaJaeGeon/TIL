@@ -39,7 +39,7 @@ from num in numbers
 
 ### where
 
-where 에서는 데이터소스로부터 가져올 데이터에 조건을 걸어 필터링을 한다.
+where 에서는 데이터소스로부터 가져올 데이터에 조건을 걸어 필터링을 한다.  
 소스1에서 아래의 구문은 num 범위변수에서 짝수값만 골라낸다.
 ```cs
 where num % 2 == 0
@@ -47,7 +47,7 @@ where num % 2 == 0
 
 ### orderby
 
-orderby 에서는 필터링된 데이터들을 정렬한다.
+orderby 에서는 필터링된 데이터들을 정렬한다.  
 소스1에서 아래의 구문은 num 을 오름차순으로 정렬한다.
 ```cs
 orderby num

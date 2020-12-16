@@ -214,8 +214,7 @@ Profile[] profiles =
   ```
 
 - 외부 조인 (Outer Join)  
-  외부 조인은 합집합과 비슷하며 내부 조인과 달리  
-  조인 결과에 기준이되는 데이터들은 모두 포함이된다.
+  외부 조인은 합집합과 비슷하며 내부 조인과 달리 조인 결과에 기준이되는 데이터들은 모두 포함이된다.
   ```cs
   var profileList = from profile in profiles
                     join post in posts on profile.Name equals post.Writer into WriterInfo

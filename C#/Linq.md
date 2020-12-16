@@ -192,10 +192,11 @@ Profile[] profiles =
 
 ```
 
-- 내부 조인 (Inner Join)
-  내부 조인은 교집합과 비슷하다.
-  두개의 데이터소스중 특정 필드가 일치한 데이터만 연결을 시키고
-  일치하지않은 필드는 제외된다.
+<br>
+
+- 내부 조인 (Inner Join)  
+  내부 조인은 교집합과 비슷하다.  
+  두개의 데이터소스중 특정 필드가 일치한 데이터만 연결을 시키고 일치하지않은 필드는 제외된다.
 
   ```cs
   var profileList = from profile in profiles
@@ -212,8 +213,8 @@ Profile[] profiles =
   Id : 4 , Name : D , Title : 라
   ```
 
-- 외부 조인 (Outer Join)
-  외부 조인은 합집합과 비슷하며 내부 조인과 달리
+- 외부 조인 (Outer Join)  
+  외부 조인은 합집합과 비슷하며 내부 조인과 달리  
   조인 결과에 기준이되는 데이터들은 모두 포함이된다.
   ```cs
   var profileList = from profile in profiles

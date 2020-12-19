@@ -8,9 +8,9 @@ HTTPContext 의 형태로 응용프로그램에 전달한다.
 ASP.NET Core 에서는 내부적으로 `Kestrel`을 기본 웹 서버로 사용하고있다.
 
 - Kestrel 은 네트워크의 요청을 직접 처리할 수 있다.
-![Kestrel-EdgeServer](https://docs.microsoft.com/ko-kr/aspnet/core/fundamentals/servers/kestrel/_static/kestrel-to-internet2.png)
+  ![Kestrel-EdgeServer](https://docs.microsoft.com/ko-kr/aspnet/core/fundamentals/servers/kestrel/_static/kestrel-to-internet2.png)
 - IIS, Nginx, Apache 와 같은 [역방향 프록시 서버][https://firework-ham.tistory.com/23]를 사용하여 간접적으로 요청을 받아 처리할 수 있다.
-![Kestrel-ReverseProxyServer](https://docs.microsoft.com/ko-kr/aspnet/core/fundamentals/servers/kestrel/_static/kestrel-to-internet.png)
+  ![Kestrel-ReverseProxyServer](https://docs.microsoft.com/ko-kr/aspnet/core/fundamentals/servers/kestrel/_static/kestrel-to-internet.png)
 
 <br>
 

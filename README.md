@@ -20,3 +20,5 @@
 - #### [ASP.NET Core](/ASP.NET-Core)
   - [Startup Class](/ASP.NET-Core/Startup.md)
   - [WebServer & Host](/ASP.NET-Core/WebServer%26Host.md)
+  - ### [Blazor](/ASP.NET-Core/Blazor)
+    - [Binding](/ASP.NET-Core/Blazor/Binding.md)

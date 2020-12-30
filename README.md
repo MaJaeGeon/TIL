@@ -26,3 +26,4 @@
   - [Cascading](/Blazor/Cascading.md)
   - [Templated Component](/Blazor/TemplatedComponent.md)
   - [EditForm & Validation](/Blazor/EditForm%26Validation.md)
+  - [JSInterop.md](/Blazor/JSInterop.md)

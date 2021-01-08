@@ -88,8 +88,8 @@ IMyDependency 인터페이스만을 사용하기때문에 MyDependency클래스�
 컨트롤러를 수정하지 않고도 쉽게 변경할 수 있다.  
 또한 MyDependency클래스의 인스턴스를 생성하지않으며 이 인스턴스는 DI 컨테이너에 의해 생성된다.  
 
->>  DI에서 말하는 서비스란 MyDependency와 같이 서비스를 제공하는 객체를 의미한다.  
->>  이 서비스는 웹 서비스를 사용할 수 있지만 웹 서비스와 관련이 있는것은 아니다.  
+>   DI에서 말하는 서비스란 MyDependency와 같이 서비스를 제공하는 객체를 의미한다.  
+>   이 서비스는 웹 서비스를 사용할 수 있지만 웹 서비스와 관련이 있는것은 아니다.  
 
 
 ## Startup클래스에 서비스 주입하기
@@ -99,8 +99,8 @@ Generic Host(IHostBuilder)를 사용할 경우 Startup 생성자에는 아래의
 -   [IHostEnvironment](https://docs.microsoft.com/ko-kr/dotnet/api/microsoft.extensions.hosting.ihostenvironment)
 -   [Configuration](https://docs.microsoft.com/ko-kr/dotnet/api/microsoft.extensions.configuration.iconfiguration)
 
->>  ASP.NET Core에서 사용되는 호스트는 Generic Host인 IHostBuilder 와 Web Host인 IWebHostBuilder 가 있다.  
->>  Web Host는 이전버전과의 호환성을 위해 남아있기때문에 MS Docs 에서는 Generic Host의 사용을 권장하고있다.  
->>  따라서 Startup 생성자는 위의 세가지 타입만 주입될 수 있다고 보는게 좋다.  
+>   ASP.NET Core에서 사용되는 호스트는 Generic Host인 IHostBuilder 와 Web Host인 IWebHostBuilder 가 있다.  
+>   Web Host는 이전버전과의 호환성을 위해 남아있기때문에 MS Docs 에서는 Generic Host의 사용을 권장하고있다.  
+>   따라서 Startup 생성자는 위의 세가지 타입만 주입될 수 있다고 보는게 좋다.  
 
 DI 컨테이너에 등록된 모든 서비스들은 Configure 메서드에 주입할 수 있다.

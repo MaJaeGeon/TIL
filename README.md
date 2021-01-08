@@ -20,6 +20,7 @@
 - #### [ASP.NET Core](/ASP.NET-Core)
   - [Startup Class](/ASP.NET-Core/Startup.md)
   - [WebServer & Host](/ASP.NET-Core/WebServer%26Host.md)
+  - [Dependency Injection](/ASP.NET-Core/DependencyInjection.md)
 - #### [Blazor](/Blazor)
   - [Binding](/Blazor/Binding.md)
   - [Component](/Blazor/Component.md)

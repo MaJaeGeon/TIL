@@ -29,3 +29,5 @@
   - [Templated Component](/Blazor/TemplatedComponent.md)
   - [EditForm & Validation](/Blazor/EditForm%26Validation.md)
   - [JSInterop.md](/Blazor/JSInterop.md)
+- #### [WPF](/WPF)
+  - [XAML](/WPF/xaml.md)
